@@ -1,2 +1,7 @@
 def hello_world():
-	return "Hello"
+    print("Hello World!")
+    
+    
+def hello_world_n(N):
+    for _ in range(N):   
+        print("Hello World!")
